@@ -1,0 +1,7 @@
+{
+  "name_valid": "user",
+  "name_invalid": "me",
+  "email_valid": "user@mail.ru",
+  "email_invalid": "mail",
+  "address": "user_address"
+}
