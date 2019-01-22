@@ -1,4 +1,11 @@
 exports.config = {
+    framework: 'jasmine2',
+    onPrepare: function(){
+        var AllureReporter = require('jasmine-allure-reporter');
+        jasmine.getEnv().addReporter(new AllureReporter({
+            resultsDir: 'allure-results'
+        }));
+    },
     // The address of a running selenium server.
     seleniumAddress: 'http://localhost:4444/wd/hub',
 
@@ -13,13 +20,7 @@ exports.config = {
     // They may include glob patterns.
     specs: ['specs/spec.js'],
 
-    // framework: 'jasmine2',
-    // onPrepare: function(){
-    //     var AllureReporter = require('jasmine-allure-reporter');
-    //     jasmine.getEnv().addReporter(new AllureReporter({
-    //         resultsDir: 'allure-results'
-    //     }));
-    // },
+
 
     // Options to be passed to Jasmine-node.
     jasmineNodeOpts: {
