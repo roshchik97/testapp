@@ -1,6 +1,6 @@
 var util = require('util');
 describe ('RegForm', function (){
-    var regForm = require('../PO/PO_1.js');
+    var regForm = require('../PO/form.js');
 
     beforeEach (function (){
         browser.get('http://localhost:8080/TestAppExample/index');
