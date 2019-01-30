@@ -1,7 +1,7 @@
 {
-  "name_valid": "user",
-  "name_invalid": "me",
-  "email_valid": "user@mail.ru",
-  "email_invalid": "mail",
+  "validName": "user",
+  "invalidName": "me",
+  "validEmail": "user@mail.ru",
+  "invalidEmail": "mail",
   "address": "user_address"
 }
