@@ -1,0 +1,65 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "1/check validation of name field",
+    "uid" : "c6668da009ecceb5",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1548976734451,
+      "stop" : 1548976753375,
+      "duration" : 18924
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "5/edit user",
+    "uid" : "d9d296ec52d70f4a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1548976785948,
+      "stop" : 1548976788829,
+      "duration" : 2881
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "4/add new user to list",
+    "uid" : "ae1f3ea49b83ac09",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1548976774274,
+      "stop" : 1548976785948,
+      "duration" : 11674
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "2/check validation of email field",
+    "uid" : "95d0b2a5ea492b62",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1548976753375,
+      "stop" : 1548976763287,
+      "duration" : 9912
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "3/work of resert button",
+    "uid" : "d8309adfc99efdc6",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1548976763287,
+      "stop" : 1548976774274,
+      "duration" : 10987
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  } ]
+}

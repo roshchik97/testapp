@@ -1,0 +1,25 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Failed: condition is not defined",
+      "children" : [ {
+        "name" : "5/edit user",
+        "uid" : "d9d296ec52d70f4a",
+        "parentUid" : "231113d160ddff1ee35f4d9323ea0c66",
+        "status" : "failed",
+        "time" : {
+          "start" : 1548976785948,
+          "stop" : 1548976788829,
+          "duration" : 2881
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "231113d160ddff1ee35f4d9323ea0c66"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

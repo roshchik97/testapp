@@ -1,0 +1,51 @@
+[ {
+  "uid" : "95d0b2a5ea492b62",
+  "name" : "2/check validation of email field",
+  "time" : {
+    "start" : 1548976753375,
+    "stop" : 1548976763287,
+    "duration" : 9912
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d9d296ec52d70f4a",
+  "name" : "5/edit user",
+  "time" : {
+    "start" : 1548976785948,
+    "stop" : 1548976788829,
+    "duration" : 2881
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d8309adfc99efdc6",
+  "name" : "3/work of resert button",
+  "time" : {
+    "start" : 1548976763287,
+    "stop" : 1548976774274,
+    "duration" : 10987
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c6668da009ecceb5",
+  "name" : "1/check validation of name field",
+  "time" : {
+    "start" : 1548976734451,
+    "stop" : 1548976753375,
+    "duration" : 18924
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ae1f3ea49b83ac09",
+  "name" : "4/add new user to list",
+  "time" : {
+    "start" : 1548976774274,
+    "stop" : 1548976785948,
+    "duration" : 11674
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
