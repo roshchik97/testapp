@@ -1,8 +1,0 @@
-{
-  "validName": "user",
-  "invalidName": "me",
-  "editName": "user123",
-  "validEmail": "user@mail.ru",
-  "invalidEmail": "mail",
-  "address": "user_address"
-}
