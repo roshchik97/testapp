@@ -8,6 +8,7 @@ var RegForm = function (){
 
     this.buttonAdd = form.element(by.className('btn btn-primary btn-sm'));
     this.buttonReset = form.element(by.className('btn btn-warning btn-sm'));
+    // this.buttonUpdate = form.element(by.className('btn btn-primary btn-sm'));
 };
 
 module.exports = new RegForm();
