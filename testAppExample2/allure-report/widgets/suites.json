@@ -4,10 +4,10 @@
     "uid" : "64098335d169e7f7f661cf04896e80b5",
     "name" : "RegForm",
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
       "total" : 5
     }

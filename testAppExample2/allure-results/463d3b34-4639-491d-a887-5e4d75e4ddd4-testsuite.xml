@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1549391030987' stop='1549391032384'>
+    <name>RegForm</name>
+    <title>RegForm</title>
+    <test-cases>
+        <test-case start='1549391030988' status='failed' stop='1549391032384'>
+            <name>encountered a declaration exception</name>
+            <title>encountered a declaration exception</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>SyntaxError: Unexpected token u in JSON at position 0</message>
+                <stack-trace>SyntaxError: Unexpected token u in JSON at position 0
+                    at JSON.parse (&lt;anonymous>)
+                    at Suite.&lt;anonymous> (C:\Users\Дмитрий\Desktop\testapp\testAppExample2\specs\spec.js:13:21)
+                    at addSpecsToSuite (C:\Users\Дмитрий\Desktop\testapp\testAppExample2\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\Дмитрий\Desktop\testapp\testAppExample2\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\Дмитрий\Desktop\testapp\testAppExample2\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (C:\Users\Дмитрий\Desktop\testapp\testAppExample2\specs\spec.js:2:1)
+                    at Module._compile (internal/modules/cjs/loader.js:722:30)
+                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:733:10)
+                    at Module.load (internal/modules/cjs/loader.js:620:32)
+                    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

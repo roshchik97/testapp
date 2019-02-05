@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1549394087086' stop='1549394089708'>
+    <name>RegForm</name>
+    <title>RegForm</title>
+    <test-cases>
+        <test-case start='1549394087087' status='passed' stop='1549394089707'>
+            <name>6/remove user</name>
+            <title>6/remove user</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

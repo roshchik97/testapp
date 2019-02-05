@@ -1,0 +1,109 @@
+{
+  "uid" : "dd6079d977c6fca",
+  "name" : "4/add new user to list",
+  "fullName" : "RegForm.4/add new user to list",
+  "historyId" : "172d674b7058793eb7d3691f9f42467c",
+  "time" : {
+    "start" : 1549299594951,
+    "stop" : 1549299606870,
+    "duration" : 11919
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "RegForm"
+  }, {
+    "name" : "testClass",
+    "value" : "RegForm"
+  }, {
+    "name" : "testMethod",
+    "value" : "4/add new user to list"
+  }, {
+    "name" : "package",
+    "value" : "RegForm"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a6029620487c1499",
+      "status" : "passed",
+      "time" : {
+        "start" : 1549295975699,
+        "stop" : 1549295981307,
+        "duration" : 5608
+      }
+    }, {
+      "uid" : "8eadadfd3214e36a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1549293902768,
+        "stop" : 1549293917931,
+        "duration" : 15163
+      }
+    }, {
+      "uid" : "8580c03d8612d6a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1549293763109,
+        "stop" : 1549293774609,
+        "duration" : 11500
+      }
+    }, {
+      "uid" : "47955de996bfa569",
+      "status" : "passed",
+      "time" : {
+        "start" : 1549293511450,
+        "stop" : 1549293521968,
+        "duration" : 10518
+      }
+    }, {
+      "uid" : "95f3fa0ec6f28b55",
+      "status" : "passed",
+      "time" : {
+        "start" : 1549289664991,
+        "stop" : 1549289674980,
+        "duration" : 9989
+      }
+    }, {
+      "uid" : "49d267648a867596",
+      "status" : "passed",
+      "time" : {
+        "start" : 1549287096028,
+        "stop" : 1549287100656,
+        "duration" : 4628
+      }
+    }, {
+      "uid" : "944ed1a73d42496d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1549021383516,
+        "stop" : 1549021398104,
+        "duration" : 14588
+      }
+    }, {
+      "uid" : "f8a4366f91d7b9cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1548976774274,
+        "stop" : 1548976785948,
+        "duration" : 11674
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dd6079d977c6fca.json",
+  "parameterValues" : [ ]
+}

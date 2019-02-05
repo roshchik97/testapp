@@ -9,11 +9,11 @@ updateWebdriverManager.on('close', function (wmUpdateExitCode) {
     if (wmUpdateExitCode !== 0) {
         process.exit(1);
     }
-    spawn('node node_modules/protractor/bin/webdriver-manager start', { // будет висеть в фоне, пока не пройдут тесты
+    spawn('node node_modules/protractor/bin/webdriver-manager start', {
         shell: true
     });
     setTimeout(function () {
-        tests = spawn('node node_modules/protractor/bin/protractor conf.js', { // замените название конфигурационного файла на свое, если оно отличается от предложенного
+        tests = spawn('node node_modules/protractor/bin/protractor conf.js', {
             stdio: 'inherit',
             shell: true
         });

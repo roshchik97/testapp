@@ -1,0 +1,83 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1549293720942' stop='1549293778490'>
+    <name>RegForm</name>
+    <title>RegForm</title>
+    <test-cases>
+        <test-case start='1549293720942' status='passed' stop='1549293733767'>
+            <name>1/check validation of name field</name>
+            <title>1/check validation of name field</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1549293733767' status='passed' stop='1549293748044'>
+            <name>2/check validation of email field</name>
+            <title>2/check validation of email field</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1549293748044' status='passed' stop='1549293763109'>
+            <name>3/work of resert button</name>
+            <title>3/work of resert button</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1549293763109' status='passed' stop='1549293774609'>
+            <name>4/add new user to list</name>
+            <title>4/add new user to list</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1549293774609' status='failed' stop='1549293778487'>
+            <name>5/edit user</name>
+            <title>5/edit user</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Failed: condition is not defined</message>
+                <stack-trace>ReferenceError: condition is not defined
+                    at UserContext.&lt;anonymous> (C:\Users\Дмитрий\Desktop\testapp\testAppExample2\specs\spec.js:80:22)
+                    at C:\Users\Дмитрий\Desktop\testapp\testAppExample2\node_modules\jasminewd2\index.js:112:25
+                    at new ManagedPromise (C:\Users\Дмитрий\Desktop\testapp\testAppExample2\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+                    at ControlFlow.promise (C:\Users\Дмитрий\Desktop\testapp\testAppExample2\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+                    at schedulerExecute (C:\Users\Дмитрий\Desktop\testapp\testAppExample2\node_modules\jasminewd2\index.js:95:18)
+                    at TaskQueue.execute_ (C:\Users\Дмитрий\Desktop\testapp\testAppExample2\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\Дмитрий\Desktop\testapp\testAppExample2\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at asyncRun (C:\Users\Дмитрий\Desktop\testapp\testAppExample2\node_modules\selenium-webdriver\lib\promise.js:2974:25)
+                    at C:\Users\Дмитрий\Desktop\testapp\testAppExample2\node_modules\selenium-webdriver\lib\promise.js:668:7
+                    at process.internalTickCallback (internal/process/next_tick.js:77:7)
+                From: Task: Run it("5/edit user") in control flow
+                    at UserContext.&lt;anonymous> (C:\Users\Дмитрий\Desktop\testapp\testAppExample2\node_modules\jasminewd2\index.js:94:19)
+                    at attempt (C:\Users\Дмитрий\Desktop\testapp\testAppExample2\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\Дмитрий\Desktop\testapp\testAppExample2\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at runNext (C:\Users\Дмитрий\Desktop\testapp\testAppExample2\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+                    at C:\Users\Дмитрий\Desktop\testapp\testAppExample2\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+                    at C:\Users\Дмитрий\Desktop\testapp\testAppExample2\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+                    at C:\Users\Дмитрий\Desktop\testapp\testAppExample2\node_modules\jasminewd2\index.js:64:48
+                    at ControlFlow.emit (C:\Users\Дмитрий\Desktop\testapp\testAppExample2\node_modules\selenium-webdriver\lib\events.js:62:21)
+                    at ControlFlow.shutdown_ (C:\Users\Дмитрий\Desktop\testapp\testAppExample2\node_modules\selenium-webdriver\lib\promise.js:2674:10)
+                    at shutdownTask_.MicroTask (C:\Users\Дмитрий\Desktop\testapp\testAppExample2\node_modules\selenium-webdriver\lib\promise.js:2599:53)
+                From asynchronous test: 
+                Error
+                    at Suite.&lt;anonymous> (C:\Users\Дмитрий\Desktop\testapp\testAppExample2\specs\spec.js:77:5)
+                    at addSpecsToSuite (C:\Users\Дмитрий\Desktop\testapp\testAppExample2\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\Дмитрий\Desktop\testapp\testAppExample2\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\Дмитрий\Desktop\testapp\testAppExample2\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (C:\Users\Дмитрий\Desktop\testapp\testAppExample2\specs\spec.js:2:1)
+                    at Module._compile (internal/modules/cjs/loader.js:722:30)
+                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:733:10)
+                    at Module.load (internal/modules/cjs/loader.js:620:32)
+                    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

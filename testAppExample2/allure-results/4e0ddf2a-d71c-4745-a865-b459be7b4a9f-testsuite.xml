@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1549295962038' stop='1549295984459'>
+    <name>RegForm</name>
+    <title>RegForm</title>
+    <test-cases>
+        <test-case start='1549295962038' status='passed' stop='1549295967816'>
+            <name>1/check validation of name field</name>
+            <title>1/check validation of name field</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1549295967816' status='passed' stop='1549295971338'>
+            <name>2/check validation of email field</name>
+            <title>2/check validation of email field</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1549295971338' status='passed' stop='1549295975699'>
+            <name>3/work of resert button</name>
+            <title>3/work of resert button</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1549295975699' status='passed' stop='1549295981307'>
+            <name>4/add new user to list</name>
+            <title>4/add new user to list</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1549295981307' status='passed' stop='1549295984458'>
+            <name>5/edit user</name>
+            <title>5/edit user</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
