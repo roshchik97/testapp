@@ -1,0 +1,43 @@
+{
+  "uid" : "565a0499e51cf3bc",
+  "name" : "edit user and check",
+  "fullName" : "TestAppExample.edit user and check",
+  "historyId" : "8511e0b7342332c1769627f374fb59de",
+  "time" : {
+    "start" : 1549457219557,
+    "stop" : 1549457222717,
+    "duration" : 3160
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "TestAppExample"
+  }, {
+    "name" : "testClass",
+    "value" : "TestAppExample"
+  }, {
+    "name" : "testMethod",
+    "value" : "edit user and check"
+  }, {
+    "name" : "package",
+    "value" : "TestAppExample"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "565a0499e51cf3bc.json",
+  "parameterValues" : [ ]
+}

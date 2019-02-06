@@ -1,0 +1,43 @@
+{
+  "uid" : "d223705c1850cbbc",
+  "name" : "check validation of email field",
+  "fullName" : "TestAppExample.check validation of email field",
+  "historyId" : "a4caab9dffa1514f07bd9ef640642ed7",
+  "time" : {
+    "start" : 1549455676733,
+    "stop" : 1549455684892,
+    "duration" : 8159
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "TestAppExample"
+  }, {
+    "name" : "testClass",
+    "value" : "TestAppExample"
+  }, {
+    "name" : "testMethod",
+    "value" : "check validation of email field"
+  }, {
+    "name" : "package",
+    "value" : "TestAppExample"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d223705c1850cbbc.json",
+  "parameterValues" : [ ]
+}

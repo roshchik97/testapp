@@ -1,0 +1,69 @@
+{
+  "uid" : "1c70f100a0e71fab",
+  "name" : "check validation of email field",
+  "fullName" : "TestAppExample.check validation of email field",
+  "historyId" : "a4caab9dffa1514f07bd9ef640642ed7",
+  "time" : {
+    "start" : 1549457651300,
+    "stop" : 1549457655223,
+    "duration" : 3923
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "TestAppExample"
+  }, {
+    "name" : "testClass",
+    "value" : "TestAppExample"
+  }, {
+    "name" : "testMethod",
+    "value" : "check validation of email field"
+  }, {
+    "name" : "package",
+    "value" : "TestAppExample"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "66006c693b7eb85a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1549457205384,
+        "stop" : 1549457210567,
+        "duration" : 5183
+      }
+    }, {
+      "uid" : "d223705c1850cbbc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1549455676733,
+        "stop" : 1549455684892,
+        "duration" : 8159
+      }
+    }, {
+      "uid" : "5c5350be282355d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1549455581407,
+        "stop" : 1549455587294,
+        "duration" : 5887
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1c70f100a0e71fab.json",
+  "parameterValues" : [ ]
+}

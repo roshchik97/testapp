@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1549455577529' stop='1549455587295'>
+    <name>TestAppExample</name>
+    <title>TestAppExample</title>
+    <test-cases>
+        <test-case start='1549455577530' status='passed' stop='1549455581406'>
+            <name>check validation of name field</name>
+            <title>check validation of name field</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1549455581407' status='passed' stop='1549455587294'>
+            <name>check validation of email field</name>
+            <title>check validation of email field</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

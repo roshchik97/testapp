@@ -1,0 +1,61 @@
+{
+  "uid" : "cb8a01e470fdbb2a",
+  "name" : "work of resert button and check if all fields are empty",
+  "fullName" : "TestAppExample.work of resert button and check if all fields are empty",
+  "historyId" : "693e39aef4d2f4088af3b9f1ab55cfa0",
+  "time" : {
+    "start" : 1549457655223,
+    "stop" : 1549457657622,
+    "duration" : 2399
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "TestAppExample"
+  }, {
+    "name" : "testClass",
+    "value" : "TestAppExample"
+  }, {
+    "name" : "testMethod",
+    "value" : "work of resert button and check if all fields are empty"
+  }, {
+    "name" : "package",
+    "value" : "TestAppExample"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b23f0eeca542e1cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1549457210567,
+        "stop" : 1549457217052,
+        "duration" : 6485
+      }
+    }, {
+      "uid" : "d469bdc812793c66",
+      "status" : "passed",
+      "time" : {
+        "start" : 1549455684892,
+        "stop" : 1549455692236,
+        "duration" : 7344
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cb8a01e470fdbb2a.json",
+  "parameterValues" : [ ]
+}

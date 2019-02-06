@@ -1,0 +1,43 @@
+{
+  "uid" : "ac304a17ff287c39",
+  "name" : "3/work of resert button",
+  "fullName" : "RegForm.3/work of resert button",
+  "historyId" : "17b784c48811da1c92ee57eaeaeb99ea",
+  "time" : {
+    "start" : 1548976763287,
+    "stop" : 1548976774274,
+    "duration" : 10987
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "RegForm"
+  }, {
+    "name" : "testClass",
+    "value" : "RegForm"
+  }, {
+    "name" : "testMethod",
+    "value" : "3/work of resert button"
+  }, {
+    "name" : "package",
+    "value" : "RegForm"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ac304a17ff287c39.json",
+  "parameterValues" : [ ]
+}

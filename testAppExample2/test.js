@@ -18,8 +18,6 @@ updateWebdriverManager.on('close', function (wmUpdateExitCode) {
             shell: true
         });
         tests.on('close', function (testsExitCode) {
-            // убиваем висящий процесс Selenium Server-а, т.к. webdriver-manager до сих пор не научился этого делать с последним Webdriver-ом
-            // будет работать только под windows, кросплатформенные решения еще более грубы или громоздки
             var killSelenium = spawn('for /f "tokens=5" %a in (\'netstat -aon ^| find "0.0.0.0:4444"\') do taskkill /f /pid %a', {
                 stdio: 'inherit',
                 shell: true

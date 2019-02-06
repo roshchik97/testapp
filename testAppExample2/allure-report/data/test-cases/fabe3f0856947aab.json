@@ -1,0 +1,51 @@
+{
+  "uid" : "fabe3f0856947aab",
+  "name" : "encountered a declaration exception",
+  "fullName" : "RegForm.encountered a declaration exception",
+  "historyId" : "d9130937af24bbae748f7762f24b66bc",
+  "time" : {
+    "start" : 1549391030988,
+    "stop" : 1549391032384,
+    "duration" : 1396
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "SyntaxError: Unexpected token u in JSON at position 0",
+  "statusTrace" : "SyntaxError: Unexpected token u in JSON at position 0\n                    at JSON.parse (<anonymous>)\n                    at Suite.<anonymous> (C:\\Users\\Дмитрий\\Desktop\\testapp\\testAppExample2\\specs\\spec.js:13:21)\n                    at addSpecsToSuite (C:\\Users\\Дмитрий\\Desktop\\testapp\\testAppExample2\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n                    at Env.describe (C:\\Users\\Дмитрий\\Desktop\\testapp\\testAppExample2\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n                    at describe (C:\\Users\\Дмитрий\\Desktop\\testapp\\testAppExample2\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n                    at Object.<anonymous> (C:\\Users\\Дмитрий\\Desktop\\testapp\\testAppExample2\\specs\\spec.js:2:1)\n                    at Module._compile (internal/modules/cjs/loader.js:722:30)\n                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:733:10)\n                    at Module.load (internal/modules/cjs/loader.js:620:32)\n                    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "RegForm"
+  }, {
+    "name" : "testClass",
+    "value" : "RegForm"
+  }, {
+    "name" : "testMethod",
+    "value" : "encountered a declaration exception"
+  }, {
+    "name" : "package",
+    "value" : "RegForm"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "fabe3f0856947aab.json",
+  "parameterValues" : [ ]
+}

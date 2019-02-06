@@ -1,0 +1,43 @@
+{
+  "uid" : "3fb6971586a40603",
+  "name" : "attempt to remove user and cancel action",
+  "fullName" : "TestAppExample.attempt to remove user and cancel action",
+  "historyId" : "aa0a42d99f61ec51e5b2fd5f434def8e",
+  "time" : {
+    "start" : 1549457222717,
+    "stop" : 1549457225774,
+    "duration" : 3057
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "TestAppExample"
+  }, {
+    "name" : "testClass",
+    "value" : "TestAppExample"
+  }, {
+    "name" : "testMethod",
+    "value" : "attempt to remove user and cancel action"
+  }, {
+    "name" : "package",
+    "value" : "TestAppExample"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3fb6971586a40603.json",
+  "parameterValues" : [ ]
+}

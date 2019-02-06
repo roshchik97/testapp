@@ -1,0 +1,43 @@
+{
+  "uid" : "976637e2c197434f",
+  "name" : "add new user to list and check whether this user is located in list of users",
+  "fullName" : "TestAppExample.add new user to list and check whether this user is located in list of users",
+  "historyId" : "8babe31f65b7268c2d4217ae653f26d4",
+  "time" : {
+    "start" : 1549455692236,
+    "stop" : 1549455698855,
+    "duration" : 6619
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "TestAppExample"
+  }, {
+    "name" : "testClass",
+    "value" : "TestAppExample"
+  }, {
+    "name" : "testMethod",
+    "value" : "add new user to list and check whether this user is located in list of users"
+  }, {
+    "name" : "package",
+    "value" : "TestAppExample"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "976637e2c197434f.json",
+  "parameterValues" : [ ]
+}

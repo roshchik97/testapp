@@ -1,0 +1,61 @@
+{
+  "uid" : "7c0277aceeeac112",
+  "name" : "add new user to list and check whether this user is located in list of users",
+  "fullName" : "TestAppExample.add new user to list and check whether this user is located in list of users",
+  "historyId" : "8babe31f65b7268c2d4217ae653f26d4",
+  "time" : {
+    "start" : 1549457657623,
+    "stop" : 1549457660367,
+    "duration" : 2744
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "TestAppExample"
+  }, {
+    "name" : "testClass",
+    "value" : "TestAppExample"
+  }, {
+    "name" : "testMethod",
+    "value" : "add new user to list and check whether this user is located in list of users"
+  }, {
+    "name" : "package",
+    "value" : "TestAppExample"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8bbb95544d7feb4c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1549457217052,
+        "stop" : 1549457219557,
+        "duration" : 2505
+      }
+    }, {
+      "uid" : "976637e2c197434f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1549455692236,
+        "stop" : 1549455698855,
+        "duration" : 6619
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7c0277aceeeac112.json",
+  "parameterValues" : [ ]
+}

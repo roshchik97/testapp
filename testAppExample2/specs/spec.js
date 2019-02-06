@@ -1,5 +1,5 @@
-var util = require('util');
-describe ('RegForm', function (){
+// var util = require('util');
+describe ('TestAppExample', function (){
     var regForm = require('../PO/form.js');
     var userList = require('../PO/userList.js');
     var window = require('../PO/window.js');
@@ -19,8 +19,7 @@ describe ('RegForm', function (){
     let address = user.address;
 
 
-    it('1/check validation of name field', function(){
-        browser.get('http://localhost:8080/TestAppExample/index');
+    it('check validation of name field', function(){
         regForm.Name.clear().sendKeys(nameInvalid);
         regForm.email.clear().sendKeys(emailValid);
 
@@ -28,8 +27,7 @@ describe ('RegForm', function (){
 
     });
 
-    it('2/check validation of email field', function(){
-        browser.get('http://localhost:8080/TestAppExample/index');
+    it('check validation of email field', function(){
         regForm.Name.clear().sendKeys(nameValid);
         regForm.email.clear().sendKeys(emailInvalid);
 
@@ -37,8 +35,7 @@ describe ('RegForm', function (){
 
     });
 
-    it('3/work of resert button', function(){
-        browser.get('http://localhost:8080/TestAppExample/index');
+    it('work of resert button and check if all fields are empty', function(){
         regForm.Name.clear().sendKeys(nameValid);
         regForm.Address.sendKeys(address);
         regForm.email.clear().sendKeys(emailValid);
@@ -52,8 +49,7 @@ describe ('RegForm', function (){
     });
 
 
-    it('4/add new user to list', function(){
-        browser.get('http://localhost:8080/TestAppExample/index');
+    it('add new user to list and check whether this user is located in list of users', function(){
         regForm.Name.clear().sendKeys(nameValid);
         regForm.Address.sendKeys(address);
         regForm.email.clear().sendKeys(emailValid);
@@ -70,8 +66,7 @@ describe ('RegForm', function (){
 
     });
 
-    it('5/edit user', function(){
-        browser.get('http://localhost:8080/TestAppExample/index');
+    it('edit user and check', function(){
         let EC = ExpectedConditions;
         let condition1 = EC.presenceOf(userList.username1);
         browser.wait(condition1,30000);
@@ -89,8 +84,7 @@ describe ('RegForm', function (){
 
     });
 
-    it('6/remove user and check if he is absent', function(){
-        browser.get('http://localhost:8080/TestAppExample/index');
+    it('remove user and check if he is absent', function(){
         let EC = ExpectedConditions;
         let condition = EC.presenceOf(userList.username1);
         browser.wait(condition,30000);
@@ -99,16 +93,35 @@ describe ('RegForm', function (){
 
         let condition1 = EC.presenceOf(window.label);
         browser.wait(condition1);
-        let name = userList.username1.getText();
 
-        // let condition2 = EC.textToBePresentInElementValue(window.label, name);
-        // browser.wait(condition2,50000);
+        var name = userList.username1.getText();
+
+        expect(window.label.getText()).toContain(name);
 
         expect(window.buttonOk.isEnabled()).toBe(true);
 
         window.buttonOk.click();
 
         expect(userList.username1.getText()).not.toBe(name);
+    });
+
+    it('attempt to remove user and cancel action', function(){
+        let EC = ExpectedConditions;
+        let condition = EC.presenceOf(userList.username1);
+        browser.wait(condition,30000);
+
+        userList.removeButton.click();
+
+        let condition1 = EC.presenceOf(window.label);
+        browser.wait(condition1);
+
+        var name = userList.username1.getText();
+
+        expect(window.buttonCancel.isEnabled()).toBe(true);
+
+        window.buttonCancel.click();
+
+        expect(userList.username1.getText()).toBe(name);
     })
 
 });

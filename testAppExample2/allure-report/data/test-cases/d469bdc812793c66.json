@@ -1,0 +1,43 @@
+{
+  "uid" : "d469bdc812793c66",
+  "name" : "work of resert button and check if all fields are empty",
+  "fullName" : "TestAppExample.work of resert button and check if all fields are empty",
+  "historyId" : "693e39aef4d2f4088af3b9f1ab55cfa0",
+  "time" : {
+    "start" : 1549455684892,
+    "stop" : 1549455692236,
+    "duration" : 7344
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "TestAppExample"
+  }, {
+    "name" : "testClass",
+    "value" : "TestAppExample"
+  }, {
+    "name" : "testMethod",
+    "value" : "work of resert button and check if all fields are empty"
+  }, {
+    "name" : "package",
+    "value" : "TestAppExample"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d469bdc812793c66.json",
+  "parameterValues" : [ ]
+}

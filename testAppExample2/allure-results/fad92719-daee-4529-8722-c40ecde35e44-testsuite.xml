@@ -1,0 +1,55 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1549397661197' stop='1549397717353'>
+    <name>RegForm</name>
+    <title>RegForm</title>
+    <test-cases>
+        <test-case start='1549397661198' status='passed' stop='1549397674225'>
+            <name>1/check validation of name field</name>
+            <title>1/check validation of name field</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1549397674226' status='passed' stop='1549397685242'>
+            <name>2/check validation of email field</name>
+            <title>2/check validation of email field</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1549397685242' status='passed' stop='1549397697166'>
+            <name>3/work of resert button</name>
+            <title>3/work of resert button</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1549397697166' status='passed' stop='1549397706720'>
+            <name>4/add new user to list</name>
+            <title>4/add new user to list</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1549397706720' status='passed' stop='1549397714843'>
+            <name>5/edit user</name>
+            <title>5/edit user</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1549397714843' status='passed' stop='1549397717352'>
+            <name>6/remove user and check if he is absent</name>
+            <title>6/remove user and check if he is absent</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,90 @@
+{
+  "uid" : "cf53c514fdf9d96a",
+  "name" : "remove user and check if he is absent",
+  "fullName" : "TestAppExample.remove user and check if he is absent",
+  "historyId" : "198d917ad7552d9b7c8d881e7f15e844",
+  "time" : {
+    "start" : 1549451832339,
+    "stop" : 1549451837037,
+    "duration" : 4698
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "TestAppExample"
+  }, {
+    "name" : "testClass",
+    "value" : "TestAppExample"
+  }, {
+    "name" : "testMethod",
+    "value" : "remove user and check if he is absent"
+  }, {
+    "name" : "package",
+    "value" : "TestAppExample"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "15bdea8dd42474c0",
+      "status" : "failed",
+      "statusDetails" : "Failed: expect(...).elementToBeClickable is not a function",
+      "time" : {
+        "start" : 1549451783087,
+        "stop" : 1549451787944,
+        "duration" : 4857
+      }
+    }, {
+      "uid" : "b6557bf89430807a",
+      "status" : "failed",
+      "statusDetails" : "Expected 'Are you sure wan't to delete user User1?' to be 'Are you sure wan't to delete user[object Object]?'.",
+      "time" : {
+        "start" : 1549451568455,
+        "stop" : 1549451571489,
+        "duration" : 3034
+      }
+    }, {
+      "uid" : "7811b77ad5058922",
+      "status" : "failed",
+      "statusDetails" : "Failed: window.label.getPartialText is not a function",
+      "time" : {
+        "start" : 1549451540898,
+        "stop" : 1549451541910,
+        "duration" : 1012
+      }
+    }, {
+      "uid" : "abf930c3ad622316",
+      "status" : "failed",
+      "statusDetails" : "Expected 'Are you sure wan't to delete user User1?' to be 'Are you sure wan't to delete user[object Object]?'.",
+      "time" : {
+        "start" : 1549451381329,
+        "stop" : 1549451388112,
+        "duration" : 6783
+      }
+    }, {
+      "uid" : "222487f6053e99ea",
+      "status" : "failed",
+      "statusDetails" : "Failed: Cannot read property 'indexOf' of null",
+      "time" : {
+        "start" : 1549451134085,
+        "stop" : 1549451151785,
+        "duration" : 17700
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cf53c514fdf9d96a.json",
+  "parameterValues" : [ ]
+}

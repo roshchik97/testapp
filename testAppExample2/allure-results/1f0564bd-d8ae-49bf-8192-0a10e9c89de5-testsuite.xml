@@ -1,0 +1,55 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1549457649398' stop='1549457664283'>
+    <name>TestAppExample</name>
+    <title>TestAppExample</title>
+    <test-cases>
+        <test-case start='1549457649399' status='passed' stop='1549457651299'>
+            <name>check validation of name field</name>
+            <title>check validation of name field</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1549457651300' status='passed' stop='1549457655223'>
+            <name>check validation of email field</name>
+            <title>check validation of email field</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1549457655223' status='passed' stop='1549457657622'>
+            <name>work of resert button and check if all fields are empty</name>
+            <title>work of resert button and check if all fields are empty</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1549457657623' status='passed' stop='1549457660367'>
+            <name>add new user to list and check whether this user is located in list of users</name>
+            <title>add new user to list and check whether this user is located in list of users</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1549457660368' status='passed' stop='1549457662491'>
+            <name>edit user and check</name>
+            <title>edit user and check</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1549457662491' status='passed' stop='1549457664282'>
+            <name>attempt to remove user and cancel action</name>
+            <title>attempt to remove user and cancel action</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

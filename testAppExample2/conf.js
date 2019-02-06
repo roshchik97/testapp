@@ -1,4 +1,5 @@
 exports.config = {
+
     framework: 'jasmine2',
     onPrepare: function() {
         var AllureReporter = require('jasmine-allure-reporter');
@@ -7,7 +8,6 @@ exports.config = {
         }));
     },
 
-
     seleniumAddress: 'http://localhost:4444/wd/hub',
 
     capabilities: {
@@ -15,8 +15,6 @@ exports.config = {
     },
 
     specs: ['specs/spec.js'],
-
-
 
     jasmineNodeOpts: {
         showColors: true,

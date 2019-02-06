@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1549451832338' stop='1549451837038'>
+    <name>TestAppExample</name>
+    <title>TestAppExample</title>
+    <test-cases>
+        <test-case start='1549451832339' status='passed' stop='1549451837037'>
+            <name>remove user and check if he is absent</name>
+            <title>remove user and check if he is absent</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

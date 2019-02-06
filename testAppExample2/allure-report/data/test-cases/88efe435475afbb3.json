@@ -1,0 +1,45 @@
+{
+  "uid" : "88efe435475afbb3",
+  "name" : "6/remove user and check if he is absent",
+  "fullName" : "RegForm.6/remove user and check if he is absent",
+  "historyId" : "baab268db3d3e6c0b11ce975fd8c1bcf",
+  "time" : {
+    "start" : 1549397714843,
+    "stop" : 1549397717352,
+    "duration" : 2509
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "RegForm"
+  }, {
+    "name" : "testClass",
+    "value" : "RegForm"
+  }, {
+    "name" : "testMethod",
+    "value" : "6/remove user and check if he is absent"
+  }, {
+    "name" : "package",
+    "value" : "RegForm"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "88efe435475afbb3.json",
+  "parameterValues" : [ ]
+}

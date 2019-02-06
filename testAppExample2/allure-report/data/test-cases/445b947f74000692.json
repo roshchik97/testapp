@@ -1,0 +1,45 @@
+{
+  "uid" : "445b947f74000692",
+  "name" : "6/remove user",
+  "fullName" : "RegForm.6/remove user",
+  "historyId" : "bcd74de5f42fc1128120bae64eaaecbc",
+  "time" : {
+    "start" : 1549392811478,
+    "stop" : 1549392819140,
+    "duration" : 7662
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected 'user' to be 'User3'.",
+  "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (C:\\Users\\Дмитрий\\Desktop\\testapp\\testAppExample2\\specs\\spec.js:127:46)\n                    at C:\\Users\\Дмитрий\\Desktop\\testapp\\testAppExample2\\node_modules\\jasminewd2\\index.js:112:25\n                    at new ManagedPromise (C:\\Users\\Дмитрий\\Desktop\\testapp\\testAppExample2\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n                    at ControlFlow.promise (C:\\Users\\Дмитрий\\Desktop\\testapp\\testAppExample2\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n                    at schedulerExecute (C:\\Users\\Дмитрий\\Desktop\\testapp\\testAppExample2\\node_modules\\jasminewd2\\index.js:95:18)\n                    at TaskQueue.execute_ (C:\\Users\\Дмитрий\\Desktop\\testapp\\testAppExample2\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n                    at TaskQueue.executeNext_ (C:\\Users\\Дмитрий\\Desktop\\testapp\\testAppExample2\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n                    at asyncRun (C:\\Users\\Дмитрий\\Desktop\\testapp\\testAppExample2\\node_modules\\selenium-webdriver\\lib\\promise.js:2974:25)\n                    at C:\\Users\\Дмитрий\\Desktop\\testapp\\testAppExample2\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "RegForm"
+  }, {
+    "name" : "testClass",
+    "value" : "RegForm"
+  }, {
+    "name" : "testMethod",
+    "value" : "6/remove user"
+  }, {
+    "name" : "package",
+    "value" : "RegForm"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "445b947f74000692.json",
+  "parameterValues" : [ ]
+}

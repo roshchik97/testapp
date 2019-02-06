@@ -1,0 +1,123 @@
+{
+  "uid" : "59c04116350e1e8c",
+  "name" : "5/edit user",
+  "fullName" : "RegForm.5/edit user",
+  "historyId" : "462448bf8c15b1b0fda36369ea85d642",
+  "time" : {
+    "start" : 1549397706720,
+    "stop" : 1549397714843,
+    "duration" : 8123
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "RegForm"
+  }, {
+    "name" : "testClass",
+    "value" : "RegForm"
+  }, {
+    "name" : "testMethod",
+    "value" : "5/edit user"
+  }, {
+    "name" : "package",
+    "value" : "RegForm"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "726d672962d091b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1549299606870,
+        "stop" : 1549299613712,
+        "duration" : 6842
+      }
+    }, {
+      "uid" : "6c3b9964d9d7bb78",
+      "status" : "passed",
+      "time" : {
+        "start" : 1549295981307,
+        "stop" : 1549295984458,
+        "duration" : 3151
+      }
+    }, {
+      "uid" : "1c80d0aabe41d5a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1549293917931,
+        "stop" : 1549293926438,
+        "duration" : 8507
+      }
+    }, {
+      "uid" : "f7a3da54cbe1b0ee",
+      "status" : "failed",
+      "statusDetails" : "Failed: condition is not defined",
+      "time" : {
+        "start" : 1549293774609,
+        "stop" : 1549293778487,
+        "duration" : 3878
+      }
+    }, {
+      "uid" : "3a9a55cea7e52ec6",
+      "status" : "failed",
+      "statusDetails" : "Failed: condition is not defined",
+      "time" : {
+        "start" : 1549293521968,
+        "stop" : 1549293526581,
+        "duration" : 4613
+      }
+    }, {
+      "uid" : "3b3164a75424d1dc",
+      "status" : "failed",
+      "statusDetails" : "Failed: condition is not defined",
+      "time" : {
+        "start" : 1549289674980,
+        "stop" : 1549289676012,
+        "duration" : 1032
+      }
+    }, {
+      "uid" : "79c432e88fd57bc3",
+      "status" : "failed",
+      "statusDetails" : "Failed: condition is not defined",
+      "time" : {
+        "start" : 1549287100656,
+        "stop" : 1549287101534,
+        "duration" : 878
+      }
+    }, {
+      "uid" : "9e69acd002692f8b",
+      "status" : "failed",
+      "statusDetails" : "Failed: condition is not defined",
+      "time" : {
+        "start" : 1549021398104,
+        "stop" : 1549021403964,
+        "duration" : 5860
+      }
+    }, {
+      "uid" : "4e6944a3dc446967",
+      "status" : "failed",
+      "statusDetails" : "Failed: condition is not defined",
+      "time" : {
+        "start" : 1548976785948,
+        "stop" : 1548976788829,
+        "duration" : 2881
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "59c04116350e1e8c.json",
+  "parameterValues" : [ ]
+}

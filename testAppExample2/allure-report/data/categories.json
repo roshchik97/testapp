@@ -1,5 +1,25 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "SyntaxError: Unexpected token u in JSON at position 0",
+      "children" : [ {
+        "name" : "encountered a declaration exception",
+        "uid" : "fabe3f0856947aab",
+        "parentUid" : "6fd1960265f6b584c43fbff3220ede49",
+        "status" : "failed",
+        "time" : {
+          "start" : 1549391030988,
+          "stop" : 1549391032384,
+          "duration" : 1396
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6fd1960265f6b584c43fbff3220ede49"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
 }

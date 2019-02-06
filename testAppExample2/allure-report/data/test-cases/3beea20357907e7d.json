@@ -1,0 +1,69 @@
+{
+  "uid" : "3beea20357907e7d",
+  "name" : "check validation of name field",
+  "fullName" : "TestAppExample.check validation of name field",
+  "historyId" : "edd9265da4b20cb92054bd56af0c8b12",
+  "time" : {
+    "start" : 1549457649399,
+    "stop" : 1549457651299,
+    "duration" : 1900
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "TestAppExample"
+  }, {
+    "name" : "testClass",
+    "value" : "TestAppExample"
+  }, {
+    "name" : "testMethod",
+    "value" : "check validation of name field"
+  }, {
+    "name" : "package",
+    "value" : "TestAppExample"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "24020e544b3ba144",
+      "status" : "passed",
+      "time" : {
+        "start" : 1549457201565,
+        "stop" : 1549457205384,
+        "duration" : 3819
+      }
+    }, {
+      "uid" : "c52bd82534bc4812",
+      "status" : "passed",
+      "time" : {
+        "start" : 1549455672818,
+        "stop" : 1549455676733,
+        "duration" : 3915
+      }
+    }, {
+      "uid" : "821a842a7b4eb854",
+      "status" : "passed",
+      "time" : {
+        "start" : 1549455577530,
+        "stop" : 1549455581406,
+        "duration" : 3876
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3beea20357907e7d.json",
+  "parameterValues" : [ ]
+}

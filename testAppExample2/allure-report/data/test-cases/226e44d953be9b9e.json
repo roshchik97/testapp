@@ -1,0 +1,43 @@
+{
+  "uid" : "226e44d953be9b9e",
+  "name" : "6/remove user",
+  "fullName" : "RegForm.6/remove user",
+  "historyId" : "bcd74de5f42fc1128120bae64eaaecbc",
+  "time" : {
+    "start" : 1549393538644,
+    "stop" : 1549393550725,
+    "duration" : 12081
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "RegForm"
+  }, {
+    "name" : "testClass",
+    "value" : "RegForm"
+  }, {
+    "name" : "testMethod",
+    "value" : "6/remove user"
+  }, {
+    "name" : "package",
+    "value" : "RegForm"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "226e44d953be9b9e.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,45 @@
+{
+  "uid" : "3a9a55cea7e52ec6",
+  "name" : "5/edit user",
+  "fullName" : "RegForm.5/edit user",
+  "historyId" : "462448bf8c15b1b0fda36369ea85d642",
+  "time" : {
+    "start" : 1549293521968,
+    "stop" : 1549293526581,
+    "duration" : 4613
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Failed: condition is not defined",
+  "statusTrace" : "ReferenceError: condition is not defined\n                    at UserContext.<anonymous> (C:\\Users\\Дмитрий\\Desktop\\testapp\\testAppExample2\\specs\\spec.js:80:22)\n                    at C:\\Users\\Дмитрий\\Desktop\\testapp\\testAppExample2\\node_modules\\jasminewd2\\index.js:112:25\n                    at new ManagedPromise (C:\\Users\\Дмитрий\\Desktop\\testapp\\testAppExample2\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n                    at ControlFlow.promise (C:\\Users\\Дмитрий\\Desktop\\testapp\\testAppExample2\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n                    at schedulerExecute (C:\\Users\\Дмитрий\\Desktop\\testapp\\testAppExample2\\node_modules\\jasminewd2\\index.js:95:18)\n                    at TaskQueue.execute_ (C:\\Users\\Дмитрий\\Desktop\\testapp\\testAppExample2\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n                    at TaskQueue.executeNext_ (C:\\Users\\Дмитрий\\Desktop\\testapp\\testAppExample2\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n                    at asyncRun (C:\\Users\\Дмитрий\\Desktop\\testapp\\testAppExample2\\node_modules\\selenium-webdriver\\lib\\promise.js:2974:25)\n                    at C:\\Users\\Дмитрий\\Desktop\\testapp\\testAppExample2\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n                    at process.internalTickCallback (internal/process/next_tick.js:77:7)\n                From: Task: Run it(\"5/edit user\") in control flow\n                    at UserContext.<anonymous> (C:\\Users\\Дмитрий\\Desktop\\testapp\\testAppExample2\\node_modules\\jasminewd2\\index.js:94:19)\n                    at attempt (C:\\Users\\Дмитрий\\Desktop\\testapp\\testAppExample2\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n                    at QueueRunner.run (C:\\Users\\Дмитрий\\Desktop\\testapp\\testAppExample2\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n                    at runNext (C:\\Users\\Дмитрий\\Desktop\\testapp\\testAppExample2\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n                    at C:\\Users\\Дмитрий\\Desktop\\testapp\\testAppExample2\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n                    at C:\\Users\\Дмитрий\\Desktop\\testapp\\testAppExample2\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n                    at C:\\Users\\Дмитрий\\Desktop\\testapp\\testAppExample2\\node_modules\\jasminewd2\\index.js:64:48\n                    at ControlFlow.emit (C:\\Users\\Дмитрий\\Desktop\\testapp\\testAppExample2\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n                    at ControlFlow.shutdown_ (C:\\Users\\Дмитрий\\Desktop\\testapp\\testAppExample2\\node_modules\\selenium-webdriver\\lib\\promise.js:2674:10)\n                    at shutdownTask_.MicroTask (C:\\Users\\Дмитрий\\Desktop\\testapp\\testAppExample2\\node_modules\\selenium-webdriver\\lib\\promise.js:2599:53)\n                From asynchronous test: \n                Error\n                    at Suite.<anonymous> (C:\\Users\\Дмитрий\\Desktop\\testapp\\testAppExample2\\specs\\spec.js:77:5)\n                    at addSpecsToSuite (C:\\Users\\Дмитрий\\Desktop\\testapp\\testAppExample2\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n                    at Env.describe (C:\\Users\\Дмитрий\\Desktop\\testapp\\testAppExample2\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n                    at describe (C:\\Users\\Дмитрий\\Desktop\\testapp\\testAppExample2\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n                    at Object.<anonymous> (C:\\Users\\Дмитрий\\Desktop\\testapp\\testAppExample2\\specs\\spec.js:2:1)\n                    at Module._compile (internal/modules/cjs/loader.js:722:30)\n                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:733:10)\n                    at Module.load (internal/modules/cjs/loader.js:620:32)\n                    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "RegForm"
+  }, {
+    "name" : "testClass",
+    "value" : "RegForm"
+  }, {
+    "name" : "testMethod",
+    "value" : "5/edit user"
+  }, {
+    "name" : "package",
+    "value" : "RegForm"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3a9a55cea7e52ec6.json",
+  "parameterValues" : [ ]
+}

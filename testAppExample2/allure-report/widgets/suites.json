@@ -1,15 +1,26 @@
 {
-  "total" : 1,
+  "total" : 2,
   "items" : [ {
     "uid" : "64098335d169e7f7f661cf04896e80b5",
     "name" : "RegForm",
     "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 8
+    }
+  }, {
+    "uid" : "cfc5358e7b38e39aed7c5e51551e9622",
+    "name" : "TestAppExample",
+    "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 5,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 5
+      "total" : 7
     }
   } ]
 }
